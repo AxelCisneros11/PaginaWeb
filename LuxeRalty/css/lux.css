@@ -1,0 +1,144 @@
+
+.header{
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+h1{
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.nav-l{
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+.header-leg{
+    margin-top: 20rem;
+}
+.h1-mas{
+    margin-top: 2rem;    
+
+}
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card{
+        margin: 4rem;
+    }
+    
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ventas{
+    display: flex;
+    justify-content: center;
+    .card{
+        margin: 3rem;
+    }
+}
+.naranja{
+    background-color: #E08709;
+}
+
+.contenedor {
+    position: relative;
+    
+    height: 400px; /* ajusta la altura según tus necesidades */
+    margin: 0 auto; /* centrar horizontalmente el contenedor */
+    background-color: #333333; /* color de fondo del contenedor */
+    padding: 20px; /* espacio interno dentro del contenedor */
+    text-align: center; /* alineación del texto al centro */
+    font-size: 20px; /* tamaño de fuente del texto */
+    color: #FFFFFF; /* color del texto */
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+  }
+
+  .naranja-t{
+        color: #E08709;
+    }
+  .separador{
+    position: relative;
+  }
+  .separador::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #71B100;
+    transform: translateY(-50%);
+  }
+  .fondo-transparente {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .blog{
+    color: white;
+    font-size: 2.5rem;
+    margin: 10% 15rem;
+  }
+  .blog-c{
+    color: white;
+    font-size: 2rem;
+    margin: 0rem 15rem;
+    text-align: right;
+  }
+  .comillas{
+    position: absolute;
+    width: 5rem;
+    transform: translate(400%, 90%);
+    z-index: 1;
+  }
+  .img-c{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  .img-c img{
+    margin-top: 3rem;
+    max-width:70%;
+
+  max-height: auto;
+  
+  }
+
+    fieldset {
+        border: 1px solid #000000;
+        padding: 1rem;
+        
+        margin: 3rem 0rem;
+  }
+  .formulario{
+    margin: 3rem 7rem;
+  }
+  .footer{
+    background-color: #333333;
+  }
+  .footer p{
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 2rem;
+  }
